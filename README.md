@@ -1,6 +1,6 @@
 # EyeLib - Roblox GUI Library
 
-A simple and customizable GUI library for Roblox.
+A roblox library for people.
 
 ## Features
 
