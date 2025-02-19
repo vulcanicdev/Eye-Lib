@@ -15,7 +15,7 @@ A simple and customizable GUI library for Roblox.
 1.  Use loadstring with this link:
 
     ```lua
-    loadstring(game:HttpGetAsync("https://pastebin.com/raw/QULDYFE4"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/QULDYFE4"))()
     ```
 
 ## Usage
@@ -23,7 +23,7 @@ A simple and customizable GUI library for Roblox.
 ### Creating a Window
 
 ```lua
-local EyeLib = require(path.to.EyeLib)
+local EyeLib = loadstring(game:HttpGet("https://pastebin.com/raw/QULDYFE4"))()
 
 local window = EyeLib:Window(
     "My Window",        -- Title of the window
