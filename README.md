@@ -113,3 +113,47 @@ Available sizes:
 *   Medium
 *   Large
 
+## Full EyeLib
+
+``local EyeLib = loadstring(game:HttpGet("https://pastebin.com/raw/QULDYFE4"))()
+
+-- Key system settings (optional)
+local keySettings = {
+    KeyEnabled = true,
+    KeyTitle = "Enter Code",
+    KeyGet = "Please enter the code to access this UI:",
+    Key = "mySecret",
+    KeySuccess = function()
+        print("Access Granted!")
+    end,
+    KeyFail = function()
+        print("Access Denied!")
+    end
+}
+
+-- Create the window
+local window = EyeLib:Window("My Awesome UI", "Medium", "Diamond", keySettings)
+
+-- Create the first tab
+local tab1 = window:CreateTab("Settings")
+
+-- Add a button to the first tab
+tab1:AddButton("Click Me", function()
+    print("Button Clicked!")
+end)
+
+-- Add a toggle to the first tab
+tab1:AddToggle("Enable Feature", false, function(state)
+    print("Feature Enabled:", state)
+end)
+
+-- Create the second tab
+local tab2 = window:CreateTab("Volume")
+
+-- Add a slider to the second tab
+tab2:AddSlider("Volume Level", 0, 100, 50, function(value)
+    print("Volume Level:", value)
+end)
+
+-- Add a label to the second tab
+tab2:AddLabel("Adjust the volume using the slider above.")``
