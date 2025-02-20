@@ -43,7 +43,7 @@ Available sizes:
 
 ## Full EyeLib
 
-``local EyeLib = loadstring(game:HttpGet("https://pastebin.com/raw/2G92QnhV"))()
+```local EyeLib = loadstring(game:HttpGet("https://pastebin.com/raw/2G92QnhV"))()
 
 -- Key system settings (optional)
 local keySettings = {
@@ -84,4 +84,4 @@ tab2:AddSlider("Volume Level", 0, 100, 50, function(value)
 end)
 
 -- Add a label to the second tab
-tab2:AddLabel("Adjust the volume using the slider above.")``
+tab2:AddLabel("Adjust the volume using the slider above.")```
