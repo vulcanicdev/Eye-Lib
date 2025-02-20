@@ -16,7 +16,7 @@ A roblox library for people.
 1.  Use loadstring with this link:
 
     ```lua
-    loadstring(game:HttpGet("https://pastebin.com/raw/2G92QnhV"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vulcanicdev/Eye-Lib/refs/heads/main/EyeLib.lua"))()
     ```
 
 ## Usage
@@ -43,7 +43,7 @@ Available sizes:
 
 ## Full EyeLib
 
-```local EyeLib = loadstring(game:HttpGet("https://pastebin.com/raw/2G92QnhV"))()
+```local EyeLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vulcanicdev/Eye-Lib/refs/heads/main/EyeLib.lua"))()
 
 -- Key system settings (optional)
 local keySettings = {
