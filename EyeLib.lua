@@ -1,7 +1,3 @@
--- EyeLib
--- Current Date and Time (UTC): 2025-02-20 01:04:21
--- User's Login: vulcanicdev
-
 local EyeLib = {}
 
 local windowSizes = {
