@@ -9,13 +9,14 @@ A roblox library for people.
 *   Buttons, toggles, and sliders for user interaction.
 *   Notifications for displaying messages.
 *   Horizontal and Vertical Flipping Support
-
+*   Prebuilt Keysystem
+*   Fun UI, simple usage.
 ## Installation
 
 1.  Use loadstring with this link:
 
     ```lua
-    loadstring(game:HttpGet("https://pastebin.com/raw/QULDYFE4"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/2G92QnhV"))()
     ```
 
 ## Usage
@@ -115,7 +116,7 @@ Available sizes:
 
 ## Full EyeLib
 
-``local EyeLib = loadstring(game:HttpGet("https://pastebin.com/raw/QULDYFE4"))()
+``local EyeLib = loadstring(game:HttpGet("https://pastebin.com/raw/2G92QnhV"))()
 
 -- Key system settings (optional)
 local keySettings = {
