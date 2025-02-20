@@ -45,22 +45,8 @@ Available sizes:
 
 ```local EyeLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vulcanicdev/Eye-Lib/refs/heads/main/EyeLib.lua"))()
 
--- Key system settings (optional)
-local keySettings = {
-    KeyEnabled = true,
-    KeyTitle = "Enter Code",
-    KeyGet = "Please enter the code to access this UI:",
-    Key = "mySecret",
-    KeySuccess = function()
-        print("Access Granted!")
-    end,
-    KeyFail = function()
-        print("Access Denied!")
-    end
-}
-
 -- Create the window
-local window = EyeLib:Window("My Awesome UI", "Medium", "Diamond", keySettings)
+local window = EyeLib:Window("My Awesome UI", "Medium", "Diamond")
 
 -- Create the first tab
 local tab1 = window:CreateTab("Settings")
